@@ -33,7 +33,7 @@ const Cards = ({ item }) => {
           </button>
         ) : (
           <div className="flex flex-row">
-            <Link href="/view" passHref>
+            <Link href="/viewCharacter" passHref>
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-4">
                 View Character
               </button>

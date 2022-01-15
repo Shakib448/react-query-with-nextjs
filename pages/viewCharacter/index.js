@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import useStore from "@Store";
 import { Cards, Layout } from "@Common";
 
-const View = () => {
+const ViewCharacter = () => {
   const character = useStore((state) => state.character);
 
   const router = useRouter();
@@ -29,4 +29,4 @@ const View = () => {
   );
 };
 
-export default View;
+export default ViewCharacter;

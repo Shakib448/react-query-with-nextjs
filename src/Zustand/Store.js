@@ -16,7 +16,9 @@ function reducer(state, action) {
 }
 
 const useStore = create(
-  devtools(redux(reducer, initialState), { name: "zustand" })
+  // Use when Devtools need
+  // devtools(redux(reducer, initialState), { name: "zustand" })
+  redux(reducer, initialState)
 );
 
 export default useStore;

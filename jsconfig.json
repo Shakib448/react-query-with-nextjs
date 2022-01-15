@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@Components": ["./src/Components/index"],
+      "@Common": ["./src/Common/index"],
+      "@Apis-Random": ["./src/Apis/Random"],
+      "@Store": ["./src/Zustand/Store"]
+    }
+  }
+}

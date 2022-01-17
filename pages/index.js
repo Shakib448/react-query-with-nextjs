@@ -36,4 +36,5 @@ const router = [
   { routName: "Simple Fetched ", routePath: "/fetch" },
   { routName: "Pagination", routePath: "/paginate" },
   { routName: "Infinite Scroll", routePath: "/infinite" },
+  { routName: "Mutation", routePath: "/mutation" },
 ];
